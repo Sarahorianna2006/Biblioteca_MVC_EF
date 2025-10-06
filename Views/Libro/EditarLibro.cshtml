@@ -4,6 +4,10 @@
 
 <form asp-action="EditarLibro" method="post">
     <input type="hidden" asp-for="Id"/>
+    <div class="mt-3 d-flex flex-column">
+        <label asp-for="Codigo"></label>
+        <input asp-for="Codigo" class="form-control"/>
+    </div>
     
     <div class="mt-3 d-flex flex-column">
         <label asp-for="Titulo"></label>

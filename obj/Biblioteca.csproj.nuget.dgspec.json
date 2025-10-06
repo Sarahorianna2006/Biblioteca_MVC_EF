@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/sarah/snap/firefox/common/Descargas/Biblioteca/Biblioteca/Biblioteca.csproj": {}
+    "/home/sarah/Descargas/Biblioteca/Biblioteca/Biblioteca.csproj": {}
   },
   "projects": {
-    "/home/sarah/snap/firefox/common/Descargas/Biblioteca/Biblioteca/Biblioteca.csproj": {
+    "/home/sarah/Descargas/Biblioteca/Biblioteca/Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/sarah/snap/firefox/common/Descargas/Biblioteca/Biblioteca/Biblioteca.csproj",
+        "projectUniqueName": "/home/sarah/Descargas/Biblioteca/Biblioteca/Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "/home/sarah/snap/firefox/common/Descargas/Biblioteca/Biblioteca/Biblioteca.csproj",
+        "projectPath": "/home/sarah/Descargas/Biblioteca/Biblioteca/Biblioteca.csproj",
         "packagesPath": "/home/sarah/.nuget/packages/",
-        "outputPath": "/home/sarah/snap/firefox/common/Descargas/Biblioteca/Biblioteca/obj/",
+        "outputPath": "/home/sarah/Descargas/Biblioteca/Biblioteca/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/sarah/.nuget/NuGet/NuGet.Config"
