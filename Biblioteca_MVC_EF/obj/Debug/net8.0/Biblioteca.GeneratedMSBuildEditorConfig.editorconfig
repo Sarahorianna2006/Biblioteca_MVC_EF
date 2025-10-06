@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Biblioteca
+build_property.RootNamespace = Biblioteca
+build_property.ProjectDir = /home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Historial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSGlzdG9yaWFsL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Libro/EditarLibro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicm8vRWRpdGFyTGlicm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Libro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicm8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/PrestamoLibro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9MaWJyby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/PrestamoLibro/PrestamosPorUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJlc3RhbW9MaWJyby9QcmVzdGFtb3NQb3JVc3VhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/sarah/RiderProjects/Biblioteca_MVC_EF/Biblioteca_MVC_EF/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l8gc6defxz
