@@ -1,0 +1,25 @@
+@model Biblioteca.Models.Libro
+
+<h1>Editar Libro</h1>
+
+<form asp-action="EditarLibro" method="post">
+    <input type="hidden" asp-for="Id"/>
+    
+    <div class="mt-3 d-flex flex-column">
+        <label asp-for="Titulo"></label>
+        <input asp-for="Titulo" class="form-control"/>
+    </div>
+    
+    <div class="mt-3 d-flex flex-column">
+        <label asp-for="Autor"></label>
+        <input asp-for="Autor" class="form-control"/>
+    </div>
+    
+    <div class="mt-3 d-flex flex-column">
+        <label asp-for="EjemplaresDisponibles"></label>
+        <input asp-for="EjemplaresDisponibles" type="number" class="form-control" min="0"/>
+    </div>
+    
+    <button type="submit" class="btn btn-success">Guardar Cambios</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

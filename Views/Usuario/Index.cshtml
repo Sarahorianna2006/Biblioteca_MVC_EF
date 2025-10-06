@@ -1,0 +1,68 @@
+@model IEnumerable<Biblioteca.Models.Usuario>
+
+<h1>Acciones de Usuario</h1>
+
+<div class="row">
+    <div class="card">
+        <div class="card-body">
+            <form asp-action="Store">
+                
+                <!--Mostrar errores generales (por ejemplo “ya existe el documento”)-->
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="mt-3 d-flex flex-column">
+                    <label form="">Nombre</label>
+                    <input type="text" class="form-control" name="Nombre">
+                </div>
+                <div class="mt-3 d-flex flex-column">
+                    <label form="">Documento</label>
+                    <input type="text" class="form-control" name="Documento">
+                </div>
+                <div class="mt-3 d-flex flex-column">
+                    <label form="">Email</label>
+                    <input type="text" class="form-control" name="Email">
+                </div>
+                <div class="mt-3 d-flex flex-column">
+                    <label form="">Telefono</label>
+                    <input type="text" class="form-control" name="Telefono">
+                </div>
+                <hr/>
+                <button type="submit" class="btn btn-primary w-100">Guardar Ususario</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="table table-striped-columns">
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Documento</th>
+                <th>Email</th>
+                <th>Telefono</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.Documento</td>
+                    <td>@item.Email</td>
+                    <td>@item.Telefono</td>
+                    <td>
+                        <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@item.Id">Editar Usuario</a>
+                        <a class="btn btn-danger btn-sm" 
+                           asp-action="Delete"
+                           asp-route-id="@item.Id"
+                           onclick="return confirm('¿Estás seguro de eliminar este usuario -> @item.Nombre?')">Eliminar</a>
+                    </td>
+                </tr>
+            }            
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
