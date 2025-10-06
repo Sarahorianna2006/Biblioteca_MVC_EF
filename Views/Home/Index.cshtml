@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido a la Biblioteca Virtual</h1>
+    <p>Escoge la accion que deseas realizar</p>
+    <div class="">
+        <a class="btn btn-primary btn-lg" asp-controller="Usuario" asp-action="Index">Usuarios</a>
+        <a class="btn btn-primary btn-lg" asp-controller="Libro" asp-action="Index">Libros</a>
+        <a class="btn btn-primary btn-lg" asp-controller="PrestamoLibro" asp-action="Index">Prestamos</a>
+        <a class="btn btn-primary btn-lg" asp-controller="Historial">Historial</a>
+    </div>
+</div>
+
+ 
